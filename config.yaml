@@ -1,0 +1,8 @@
+app:
+  name: auth-service
+  env: local
+  port: 8081
+
+mongo:
+  uri: "mongodb://localhost:27017"
+  database: "auth_service"
